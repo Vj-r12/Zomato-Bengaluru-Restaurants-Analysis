@@ -28,7 +28,7 @@ WHERE AREA_NAME = 'Indiranagar'
 
 --Find the Hotel name that are belong to south Indian cuisines.
 
-SELECT HOTEL_NAMESa,
+SELECT HOTEL_NAMES,
 	   CUISINES
 FROM ZOMATO_INFO
 WHERE CUISINES = 'South Indian';
@@ -47,8 +47,8 @@ SELECT HOTEL_NAMES,
 	   AREA_NAME,
 	   DINNER_RATINGS
 FROM ZOMATO_INFO
-WHERE DINNER_RATINGS > 4.8
-ORDER BY DINNER_RATINGS DESC;
+ORDER BY DINNER_RATINGS DESC
+LIMIT 5;
 
 --Count the hotel names that are belong to area.
 
@@ -92,13 +92,13 @@ SELECT HOTEL_NAMES,
 FROM ZOMATO_INFO
 WHERE TAKE_AWAY = 'No';
 
---Find the top hotel names by dinner reviews.
+--Find the top 10 hotel names by dinner reviews.
 
 SELECT HOTEL_NAMES,
 	   DINNER_REVIEWS
 FROM ZOMATO_INFO
-WHERE DINNER_REVIEWS >= 10000
-ORDER BY DINNER_REVIEWS DESC;
+ORDER BY DINNER_REVIEWS DESC
+LIMIT 10;
 
 --Find the top delivery ratings by area.
 
