@@ -1,3 +1,6 @@
 Data Analysis Project On Zomato Bengaluru Restaurants
 
-In this zomato bengaluru restaurants data analysis project. I have used postgreSQL tool to write query. and i have used various types of clauses and conditions for analyzing the data. I have analysed the top restaurants by dinner ratings with help of window functions and top restaurants in the area wise. These analyses involves using clauses such as SELECT, FROM, WHERE, GROUP BY, and window functions, among others.
+In this Zomato Bengaluru Restaurants data analysis project, I have utilized IBM Cloud Db2-Oc database to write queries. Employing various types of clauses and conditions, including SELECT, FROM, WHERE, GROUP BY, and window functions, I thoroughly analyzed the data. Specifically, I explored the top restaurants by dinner ratings using advanced window functions and identified the best restaurants in different areas within the robust environment of IBM Cloud Db2-Oc.
+
+
+![913bce111202195 5ffdd9002e191](https://github.com/Vj-r12/Zomato-Bengaluru-Restaurants-Analysis/assets/123143472/25978272-0491-4e93-a290-f3efa47f0db4)
